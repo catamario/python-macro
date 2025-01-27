@@ -1,6 +1,6 @@
 import threading
 from console.interface import start_tkinter
-from operations.keyboard_listener import start_keyboard_listener
+from operations.__keyboard_listener import start_keyboard_listener
 
 
 def main():
