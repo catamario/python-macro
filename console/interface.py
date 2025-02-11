@@ -20,16 +20,22 @@ def update_text_color(enabled, text_widget):
         else:
             text_widget3.config(fg="red")
 
-    else:
+    elif text_widget == 4:
         if enabled:
             text_widget4.config(fg="green")
         else:
             text_widget4.config(fg="red")
 
+    else:
+        if enabled:
+            text_widget5.config(fg="green")
+        else:
+            text_widget5.config(fg="red")
+
 
 def start_tkinter():
     global middle_label
-    global text_widget1, text_widget2, text_widget3, text_widget4
+    global text_widget1, text_widget2, text_widget3, text_widget4, text_widget5
     window = Tk()
     window.geometry('600x400')
     window.resizable(False, False)
@@ -115,12 +121,30 @@ def start_tkinter():
     text_widget4.insert("insert", " lr300", ("highlight2",))
     text_widget4.insert("insert", " spray")
     text_widget4.tag_configure("highlight", foreground="orange")
-    text_widget4.tag_configure("highlight2", foreground="#a98000")
+    text_widget4.tag_configure("highlight2", foreground="cyan")
     text_widget4.config(state=DISABLED)
     text_widget4.grid(row=3, column=0, padx=10, pady=2)
 
     text_widget4.tag_configure("center", justify="center")
     text_widget4.tag_add("center", "1.0", "end")
+
+
+
+# Al patrulea text (F6 - portocaliu)
+    text_widget5 = Text(middle_label, font=("Comic Sans MS", 16, "bold"), bg="#333333", fg="red", bd=0, height=2,
+                        width=40)
+    text_widget5.insert("insert", "Press ")
+    text_widget5.insert("insert", "F6", ("highlight",))  # F4 cu altă culoare
+    text_widget5.insert("insert", " to ENABLE/DISABLE")
+    text_widget5.insert("insert", " SAR", ("highlight2",))
+    text_widget5.insert("insert", " spray")
+    text_widget5.tag_configure("highlight", foreground="orange")
+    text_widget5.tag_configure("highlight2", foreground="#a06522")
+    text_widget5.config(state=DISABLED)
+    text_widget5.grid(row=4, column=0, padx=10, pady=2)
+
+    text_widget5.tag_configure("center", justify="center")
+    text_widget5.tag_add("center", "1.0", "end")
 
 
 
