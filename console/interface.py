@@ -26,11 +26,35 @@ def update_text_color(enabled, text_widget):
         else:
             text_widget4.config(fg="red")
 
-    else:
+    elif text_widget == 5:
         if enabled:
             text_widget5.config(fg="green")
         else:
             text_widget5.config(fg="red")
+
+    elif text_widget == 6:
+        if enabled:
+            text_widget1.config(fg="orange")
+        else:
+            text_widget1.config(fg="green")
+
+    elif text_widget == 7:
+        if enabled:
+            text_widget2.config(fg="orange")
+        else:
+            text_widget2.config(fg="green")
+
+    elif text_widget == 8:
+        if enabled:
+            text_widget3.config(fg="orange")
+        else:
+            text_widget3.config(fg="green")
+
+    elif text_widget == 9:
+        if enabled:
+            text_widget4.config(fg="orange")
+        else:
+            text_widget4.config(fg="green")
 
 
 def start_tkinter():
@@ -152,7 +176,7 @@ def start_tkinter():
 
     credits_label = Label(
         window,
-        text=" input.sensitivity 0.8333 || input.ads_sensitivity 0.8333 || fov 90",
+        text=" input.sensitivity 0.8333 || input.ads_sensitivity 0.8333 || fov 90 || F10 - HOLOSIGHT",
         font=("Comic Sans MS", 10, "italic"),
         bg="#333333",
         fg="white"

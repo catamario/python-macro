@@ -51,7 +51,7 @@ local SMG_HOLOSIGHT = nil
 local M249 = nil
 local M249_HOLOSIGHT = nil
 local M249_8X = nil
-local MP5A4 = nil
+local MP5A4 = 4
 local MP5A4_HOLOSIGHT = nil
 local MP5A4_8X = nil
 local LR300 = nil
@@ -356,71 +356,71 @@ function OnEvent(event, arg)
 			if (IsLeftNotPressed()) then return end
 				if (IsModifierPressed("lctrl")) then
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)1
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)2
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)3
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)4
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)5
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)6
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)7
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)8
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)9
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)10
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)11
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)12
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)13
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)14
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)15
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)16
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)17
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)18
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)19
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)20
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)21
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)22
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)23
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)24
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)25
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)26
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)27
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)28
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)29
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)30
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)31
 					Sleep_for(3)
-					MoveMouseRelative(0, 0)
+					MoveMouseRelative(0, 0)32
 					Sleep_for(3)
-					MoveMouseRelative(0, 1*multiplier)
+					MoveMouseRelative(0, 1*multiplier)33
 					Sleep_for(34)
 				if (IsLeftNotPressed()) then return end
 					Sleep_for(3)
@@ -4582,45 +4582,35 @@ function OnEvent(event, arg)
 			if (IsLeftNotPressed()) then return end
 				if (IsModifierPressed("lctrl")) then
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)1
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)2
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)3
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)4
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)5
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)6
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
-					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
-					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
-					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)7
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
-					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
-					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)10
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
-					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
+					Sleep_for(3)
+					MoveMouseRelative(0*multiplier, 0*multiplier)5
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
@@ -4630,7 +4620,17 @@ function OnEvent(event, arg)
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
+					MoveMouseRelative(0*multiplier, 1*multiplier)2
+					Sleep_for(3)
+					MoveMouseRelative(0*multiplier, 1*multiplier)1
+					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
+					Sleep_for(3)
+					MoveMouseRelative(0*multiplier, 0*multiplier)
+					Sleep_for(3)
+					MoveMouseRelative(0*multiplier, 1*multiplier)
+					Sleep_for(3)
+					MoveMouseRelative(0*multiplier, 1*multiplier)5
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
@@ -4640,7 +4640,7 @@ function OnEvent(event, arg)
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 1*multiplier)
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)3
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 0*multiplier)
 					Sleep_for(3)
@@ -21411,63 +21411,63 @@ function OnEvent(event, arg)
 					Sleep_for(1)
 				if (IsLeftNotPressed()) then return end
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)1
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)2
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)3
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)4
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)5
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)6
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)7
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)8
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)9
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)10
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)11
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)12
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)13
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)14
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)15
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)16
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)17
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)18
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)19
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)20
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)21
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)22
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)23
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)24
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)25
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)26
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 1*multiplier)
+					MoveMouseRelative(0*multiplier, 1*multiplier)27
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)28
 					Sleep_for(3)
-					MoveMouseRelative(0*multiplier, 0*multiplier)
+					MoveMouseRelative(0*multiplier, 0*multiplier)29
 					Sleep_for(3)
 					MoveMouseRelative(0*multiplier, 0*multiplier)
 					Sleep_for(3)
@@ -40369,37 +40369,37 @@ function OnEvent(event, arg)
 			if (IsLeftNotPressed()) then return end
 				if (IsModifierPressed("lctrl")) then
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)1
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 1*multiplier)
+							MoveMouseRelative(0*multiplier, 1*multiplier)2
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)3
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 1*multiplier)
+							MoveMouseRelative(0*multiplier, 1*multiplier)4
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)5
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)6
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 1*multiplier)
+							MoveMouseRelative(0*multiplier, 1*multiplier)7
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)8
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 1*multiplier)
+							MoveMouseRelative(0*multiplier, 1*multiplier)9
 							Sleep_for(5)
-							MoveMouseRelative(1*multiplier, 0*multiplier)
+							MoveMouseRelative(1*multiplier, 0*multiplier)10
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)11
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 1*multiplier)
+							MoveMouseRelative(0*multiplier, 1*multiplier)12
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)13
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 1*multiplier)
+							MoveMouseRelative(0*multiplier, 1*multiplier)14
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)15
 							Sleep_for(5)
-							MoveMouseRelative(0*multiplier, 0*multiplier)
+							MoveMouseRelative(0*multiplier, 0*multiplier)16
 							Sleep_for(5)
 							MoveMouseRelative(0*multiplier, 1*multiplier)
 							Sleep_for(5)
@@ -46872,55 +46872,55 @@ function OnEvent(event, arg)
 			if (IsLeftNotPressed()) then return end
 				if (IsModifierPressed("lctrl")) then
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)1
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)2
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)3
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)4
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)5
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)6
 						Sleep_for(4)
-						MoveMouseRelative(1*multiplier, 0*multiplier)
+						MoveMouseRelative(1*multiplier, 0*multiplier)7
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)8
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)9
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)10
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)11
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)12
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)13
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)14
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)15
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)16
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)17
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)18
 						Sleep_for(4)
-						MoveMouseRelative(1*multiplier, 0*multiplier)
+						MoveMouseRelative(1*multiplier, 0*multiplier)19
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)20
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)21
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)22
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)23
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 1*multiplier)
+						MoveMouseRelative(0*multiplier, 1*multiplier)24
 						Sleep_for(4)
-						MoveMouseRelative(0*multiplier, 0*multiplier)
+						MoveMouseRelative(0*multiplier, 0*multiplier)25
 						Sleep_for(30)
 					if (IsLeftNotPressed()) then return end
 						Sleep_for(4)

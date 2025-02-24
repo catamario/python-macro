@@ -1,7 +1,7 @@
 import re
 
 
-def extract_coordinates(file_path, start_line=48942, end_line=49025):
+def extract_coordinates(file_path, start_line=31915, end_line=33954):
     with open(file_path, "r", encoding="utf-8") as file:
         lines = file.readlines()
 
