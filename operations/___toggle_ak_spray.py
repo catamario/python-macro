@@ -9,7 +9,6 @@ from data.points import points_lua_duck, points_lua, points_thompson_duck, point
     points_lr300_duck_HOLOSIGHT, points_lr300_HOLOSIGHT
 import win32api
 import win32con
-from data.interpolate_points import split_points
 
 
 import winsound

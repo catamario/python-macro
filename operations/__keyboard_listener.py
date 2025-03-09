@@ -16,7 +16,7 @@ def on_press(key):
     global is_enabled_ak, is_enabled_thompson, is_enabled_mp5, is_enabled_lr300, is_enabled_sar
     global is_enabled_ak_holosight, is_enabled_thompson_holosight, is_enabled_mp5_holosight, is_enabled_lr300_holosight
 
-    if key == keyboard.Key.f2 and not any([is_enabled_ak, is_enabled_ak_holosight, is_enabled_thompson, is_enabled_mp5, is_enabled_lr300, is_enabled_sar, is_enabled_mp5_holosight, is_enabled_lr300_holosight]):
+    if key == keyboard.Key.f2 and not any([is_enabled_ak, is_enabled_ak_holosight, is_enabled_thompson, is_enabled_thompson_holosight, is_enabled_mp5, is_enabled_lr300, is_enabled_sar, is_enabled_mp5_holosight, is_enabled_lr300_holosight]):
         toggle_ak_spray()
         is_enabled_ak = True  # Setează ca activat
 
